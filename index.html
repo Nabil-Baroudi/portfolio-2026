@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nabil Baroudi | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 🌌 Interactive JavaScript 3D Matrix/Particle Canvas Background -->
+    <canvas id="canvas3d"></canvas>
+
+    <main class="portfolio-container">
+      <!-- 👤 HEADER HERO SECTION -->
+      <header class="hero-section">
+        <h1>Nabil Baroudi</h1>
+        <p class="tagline">
+          Information Systems Engineer | Full-stack Platform Engineer | Web
+          Developer
+        </p>
+        <div class="meta-contacts">
+          <a href="mailto:nabil.baroudi1997@gmail.com" class="link-btn"
+            >✉️ nabil.baroudi1997@gmail.com</a
+          >
+          <a href="#" class="link-btn">🔗 LinkedIn Profile (Updating)</a>
+          <a href="#" class="link-btn">📞 00963937874116</a>
+        </div>
+      </header>
+
+      <!-- 💡 RECENT PRODUCTION DEPLOYMENTS WORK -->
+      <!-- saas project -->
+      <section class="workspace-grid">
+        <h2 class="section-title">Production Systems Architectures</h2>
+
+        <div class="project-card">
+          <div class="card-header">
+            <h3>Multi-Tenant Clinic Core & Compliance SaaS</h3>
+            <span class="stack-badge">Laravel API</span>
+            <span class="stack-badge">Angular 19 SPA</span>
+          </div>
+          <p class="card-description">
+            A dual-module enterprise platform combining a high-concurrency
+            medical appointment scheduling engine with a corporate LegalTech
+            document tracker.
+          </p>
+          <ul class="highlights-list">
+            <li>
+              <strong>Concurrency Protection:</strong> Used database transaction
+              structures and <code>lockForUpdate()</code> to eliminate
+              multi-user time-slot booking race conditions.
+            </li>
+            <li>
+              <strong>Asynchronous Pipelines:</strong> Integrated distributed
+              background database <code>queue:work</code> task workers to handle
+              email dispatches instantaneously.
+            </li>
+            <li>
+              <strong>Automation Engines:</strong> Engineered background system
+              cron jobs utilizing Laravel Task Schedulers to auto-audit 30-day
+              compliance deadlines.
+            </li>
+            <li>
+              <strong>State Architectures:</strong> Leveraged Angular Standalone
+              components alongside reactive <strong>Signals</strong> to maximize
+              text data-stream performance.
+            </li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com" target="_blank" class="action-btn"
+              >📁 Source Code Repositories →</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- renshu app -->
+      <section class="workspace-grid" style="padding-top: 2rem">
+        <div class="project-card">
+          <div class="card-header">
+            <h3>Multi-Tenant Clinic Core & Compliance SaaS</h3>
+            <span class="stack-badge">Laravel API</span>
+            <span class="stack-badge">Angular 19 SPA</span>
+          </div>
+          <p class="card-description">
+            A dual-module enterprise platform combining a high-concurrency
+            medical appointment scheduling engine with a corporate LegalTech
+            document tracker.
+          </p>
+          <ul class="highlights-list">
+            <li>
+              <strong>Concurrency Protection:</strong> Used database transaction
+              structures and <code>lockForUpdate()</code> to eliminate
+              multi-user time-slot booking race conditions.
+            </li>
+            <li>
+              <strong>Asynchronous Pipelines:</strong> Integrated distributed
+              background database <code>queue:work</code> task workers to handle
+              email dispatches instantaneously.
+            </li>
+            <li>
+              <strong>Automation Engines:</strong> Engineered background system
+              cron jobs utilizing Laravel Task Schedulers to auto-audit 30-day
+              compliance deadlines.
+            </li>
+            <li>
+              <strong>State Architectures:</strong> Leveraged Angular Standalone
+              components alongside reactive <strong>Signals</strong> to maximize
+              text data-stream performance.
+            </li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com" target="_blank" class="action-btn"
+              >📁 Source Code Repositories →</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
