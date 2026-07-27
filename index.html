@@ -34,47 +34,64 @@
 
         <div class="project-card">
           <div class="card-header">
-            <h3>Multi-Tenant Clinic Core & Compliance SaaS</h3>
+            <h3>
+              Enterprise Multi-Tenant SaaS Platform (Core Medical, LegalTech &
+              FinTech Modules)
+            </h3>
             <span class="stack-badge">Laravel API</span>
             <span class="stack-badge">Angular 19 SPA</span>
+            <span class="stack-badge">PostgreSQL/MySQL</span>
           </div>
           <p class="card-description">
-            A dual-module enterprise platform combining a high-concurrency
-            medical appointment scheduling engine with a corporate LegalTech
-            document tracker.
+            A robust, decoupled enterprise ecosystem integrating three
+            high-concurrency business modules: an automated clinic scheduling
+            matrix, a corporate regulatory document tracker, and a precision
+            financial accounting engine.
           </p>
           <ul class="highlights-list">
             <li>
-              <strong>Concurrency Protection:</strong> Used database transaction
-              structures and <code>lockForUpdate()</code> to eliminate
-              multi-user time-slot booking race conditions.
+              <strong>Concurrency & State Locks:</strong> Deployed strict
+              database transactions and <code>lockForUpdate()</code> to
+              permanently eliminate multi-user data race conditions.
             </li>
             <li>
-              <strong>Asynchronous Pipelines:</strong> Integrated distributed
-              background database <code>queue:work</code> task workers to handle
-              email dispatches instantaneously.
+              <strong>Asynchronous Architectures:</strong> Built distributed
+              database queue lines using <code>queue:work</code> background
+              daemons to process email dispatches instantaneously.
             </li>
             <li>
-              <strong>Automation Engines:</strong> Engineered background system
-              cron jobs utilizing Laravel Task Schedulers to auto-audit 30-day
-              compliance deadlines.
+              <strong>Automated Cron Schedules:</strong> Engineered automated
+              background cron routines via Laravel Task Schedulers to auto-audit
+              30-day compliance deadlines and system logs.
             </li>
             <li>
-              <strong>State Architectures:</strong> Leveraged Angular Standalone
-              components alongside reactive <strong>Signals</strong> to maximize
-              text data-stream performance.
+              <strong>Financial Data Precision:</strong> Designed strict
+              <code>decimal(15,2)</code> database schemas combined with
+              server-side regex validations to guarantee absolute accounting
+              integrity.
+            </li>
+            <li>
+              <strong>Dynamic Binary Streams:</strong> Developed an internal
+              document engine to dynamically compile relational ledger metrics
+              into securely formatted, downloadable PDF audit reports.
+            </li>
+            <li>
+              <strong>Reactive State Management:</strong> Leveraged Angular
+              Standalone components coupled with modern reactive
+              <strong>Signals</strong> to optimize browser text data streams
+              without page reloads.
             </li>
           </ul>
           <div class="card-links">
             <a href="https://github.com" target="_blank" class="action-btn"
-              >📁 Source Code Repositories →</a
+              >📁 View Full Platform Repositories →</a
             >
           </div>
         </div>
       </section>
 
       <!-- renshu app -->
-      <section class="workspace-grid" style="padding-top: 2rem">
+      <!-- <section class="workspace-grid" style="padding-top: 2rem">
         <div class="project-card">
           <div class="card-header">
             <h3>Multi-Tenant Clinic Core & Compliance SaaS</h3>
@@ -114,7 +131,7 @@
             >
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <script src="app.js"></script>
